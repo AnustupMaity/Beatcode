@@ -2,7 +2,6 @@
 
 BeatCode is a sophisticated, full-stack web application designed for tracking and managing coding interview questions. Built with a modern tech stack, it provides a comprehensive platform for users to manage LeetCode-style questions with advanced progress tracking, analytics, and administrative capabilities.
 
-!(https://via.placeholder.com/800x400.png?text=BeatCode+Dashboard+Screenshot)
 
 ## 📋 Table of Contents
 
