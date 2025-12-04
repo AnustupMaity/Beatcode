@@ -8,10 +8,7 @@ BeatCode is a sophisticated, full-stack web application designed for tracking an
 - [About The Project](#-about-the-project)
 - [Key Features](#-key-features)
 - [Tech Stack](#-tech-stack)
-- [Getting Started](#-getting-started)
-- [Environment Variables](#-environment-variables)
-- [Usage](#-usage)
-- [Future Improvements](#-future-improvements)
+
 
 ---
 
@@ -48,71 +45,7 @@ This application serves as a personal coding question tracker to help users prep
 
 ---
 
-## 🚀 Getting Started
 
-Follow these instructions to get a copy of the project up and running on your local machine.
-
-### Prerequisites
-
--   Node.js (v18.0 or higher)
--   PostgreSQL (v12 or higher)
--   npm or yarn
-
-### Installation
-
-1.  **Clone the repository**
-    ```bash
-    git clone <repository-url>
-    cd BeatCode
-    ```
-
-2.  **Install dependencies**
-    ```bash
-    npm install
-    # or
-    yarn install
-    ```
-
-3.  **Set up environment variables**
-    -   Copy the `.env.example` file to a new file named `.env`.
-    -   Update the `.env` file with your database URL and other credentials. See the section below for details.
-
-4.  **Set up the database**
-    -   This single command will generate the Prisma client, push the schema to your database, and seed it with initial data and admin users.
-    ```bash
-    npm run db:setup
-    ```
-
-5.  **Run the development server**
-    ```bash
-    npm run dev
-    ```
-    The application will be available at `http://localhost:3000`.
-
----
-
-## ⚙️ Environment Variables
-
-Create a `.env` file in the root directory and add the following variables:
-
-```env
-# Database Configuration
-DATABASE_URL="postgresql://USERNAME:PASSWORD@HOST:PORT/DATABASE?schema=public"
-
-# NextAuth.js Configuration
-NEXTAUTH_SECRET="your-super-secret-key"
-NEXTAUTH_URL="http://localhost:3000"
-
-# Admin User Configuration (used for seeding)
-SUPER_ADMIN_EMAIL="superadmin@example.com"
-SUPER_ADMIN_PASSWORD="YourSecurePassword123"
-SUPER_ADMIN_NAME="Super Admin"
-SUPER_ADMIN_USERNAME="superadmin"
-
-ADMIN_EMAIL="admin@example.com"
-ADMIN_PASSWORD="YourSecurePassword123"
-ADMIN_NAME="Admin User"
-ADMIN_USERNAME="admin"
 
 # Development Configuration
 NODE_ENV="development"
