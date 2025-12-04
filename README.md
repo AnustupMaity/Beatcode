@@ -47,5 +47,3 @@ This application serves as a personal coding question tracker to help users prep
 
 
 
-# Development Configuration
-NODE_ENV="development"
